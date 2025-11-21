@@ -22,29 +22,10 @@ El mantenimiento correctivo se llevará a cabo en un período de *2 días hábil
 - *Carlos Rodríguez*, Desarrollador Backend.
 - *Equipo de QA*, encargados de probar las correcciones.
 
----
-
-### 2. Mantenimiento Adaptativo
-Este mantenimiento está destinado a ajustar el sistema a nuevas tecnologías o cambios en el entorno.
-
-#### Cambios Necesarios:
-1. *Compatibilidad con Nuevas Versiones de Sistemas Operativos*: El sistema debe ser compatible con las últimas versiones de Android e iOS.
-2. *Integración con Nuevas APIs*: Se desea integrar la aplicación con una nueva API de recordatorios de Google para mejorar la sincronización de citas.
-
-#### Plan de Acción:
-- Actualizar las bibliotecas de compatibilidad con nuevas versiones de sistemas operativos.
-- Integrar la nueva API de recordatorios de Google y realizar pruebas de sincronización.
-
-#### Tiempo Estimado:
-El mantenimiento adaptativo se llevará a cabo en un período de **4 días hábiles**.
-
-#### Responsables:
-- *Ana González*, Desarrolladora Backend.
-- *Equipo de Soporte*, encargados de realizar pruebas de integración.
 
 ---
 
-### 3. Mantenimiento Perfectivo
+### 2. Mantenimiento Perfectivo
 Este mantenimiento se enfoca en mejorar la funcionalidad y rendimiento del sistema.
 
 #### Problema:
@@ -70,3 +51,4 @@ El mantenimiento de la Agenda Personal de Citas se llevará a cabo en tres fases
 ## Tiempo Total Estimado:
 
 *7 días hábiles* para completar todas las fases de mantenimiento.
+
