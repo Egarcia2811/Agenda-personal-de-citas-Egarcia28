@@ -1,26 +1,25 @@
 # Propuesta de Mantenimiento para el Sistema de Agenda Personal de Citas
 
 ## Objetivo
-El objetivo de esta propuesta de mantenimiento es asegurar el buen funcionamiento y la mejora continua del sistema de *Agenda Personal de Citas*. Este mantenimiento puede abarcar tanto la corrección de errores, como la adaptación a nuevas tecnologías y la mejora de funcionalidades.
+El objetivo de esta propuesta de mantenimiento es garantizar el óptimo desempeño y la evolución constante del sistema de Agenda Personal de Citas. Este mantenimiento abarcará tanto la corrección de fallos, como la implementación de nuevas tecnologías y la mejora de las funcionalidades existentes para asegurar que el sistema siga cumpliendo las necesidades de los usuarios de manera eficiente y actualizada.
 
 ## Tipos de Mantenimiento Propuestos
 
 ### 1. Mantenimiento Correctivo
 Este tipo de mantenimiento tiene como objetivo corregir los fallos que afectan al funcionamiento del sistema.
 
-#### Problemas Identificados:
-1. *Error en la Visualización de Citas en el Calendario*: En algunas fechas, el sistema no muestra las citas correctamente, especialmente en dispositivos móviles.
-2. *Fallo en el Recordatorio de Citas*: Los recordatorios de citas no se envían en el tiempo estipulado, lo que provoca que los usuarios olviden sus citas.
+#### Problema:
+1. Error en el Inicio de Sesión: Algunos usuarios experimentan dificultades al intentar iniciar sesión en la aplicación con sus credenciales, a pesar de que las contraseñas y nombres de usuario son correctos.
 
 #### Plan de Acción:
-- Investigar la causa del fallo en la visualización del calendario.
-- Corregir la programación del envío de notificaciones de recordatorio de citas.
+- Investigar y revisar el proceso de autenticación de usuarios, específicamente el manejo de credenciales y sesiones.
+- Corregir cualquier posible error en la verificación de las contraseñas o en la base de datos que pueda estar impidiendo el inicio de sesión.
 
 #### Tiempo Estimado:
 El mantenimiento correctivo se llevará a cabo en un período de *2 días hábiles*.
 
 #### Responsables:
-- *Carlos Rodríguez*, Desarrollador Frontend.
+- *Carlos Rodríguez*, Desarrollador Backend.
 - *Equipo de QA*, encargados de probar las correcciones.
 
 ---
@@ -37,7 +36,7 @@ Este mantenimiento está destinado a ajustar el sistema a nuevas tecnologías o 
 - Integrar la nueva API de recordatorios de Google y realizar pruebas de sincronización.
 
 #### Tiempo Estimado:
-El mantenimiento adaptativo se llevará a cabo en un período de *4 días hábiles*.
+El mantenimiento adaptativo se llevará a cabo en un período de **4 días hábiles**.
 
 #### Responsables:
 - *Ana González*, Desarrolladora Backend.
@@ -48,28 +47,26 @@ El mantenimiento adaptativo se llevará a cabo en un período de *4 días hábil
 ### 3. Mantenimiento Perfectivo
 Este mantenimiento se enfoca en mejorar la funcionalidad y rendimiento del sistema.
 
-#### Mejoras Propuestas:
-1. *Mejorar la Interfaz de Usuario*: Rediseñar la interfaz para mejorar la experiencia del usuario, haciendo que sea más intuitiva y visualmente atractiva.
-2. *Optimización del Rendimiento*: Mejorar el rendimiento del sistema en dispositivos con pocos recursos, asegurando tiempos de respuesta más rápidos.
-3. *Nueva Funcionalidad - Sincronización de Citas*: Permitir que los usuarios puedan sincronizar sus citas con sus calendarios de Google y Outlook.
+#### Problema:
+1. Problemas de Adaptación de la Interfaz en Dispositivos con Pantallas Pequeñas: La interfaz de usuario no se adapta correctamente en dispositivos con pantallas más pequeñas, como teléfonos de gama baja o tablets, lo que dificulta la navegación y uso del sistema.
 
 #### Plan de Acción:
-- Diseñar nuevas vistas para la interfaz de usuario, asegurándose de que sea más accesible y fácil de usar.
-- Revisar y optimizar el código para mejorar el rendimiento en dispositivos con recursos limitados.
-- Desarrollar y probar la funcionalidad de sincronización con Google Calendar y Outlook.
+- Revisar y ajustar el diseño responsivo de la interfaz para garantizar que se ajuste adecuadamente en diferentes tamaños de pantalla.
+- Optimizar los elementos de la interfaz (botones, menús, texto) para dispositivos con pantallas pequeñas, asegurando que sean accesibles y fáciles de usar.
 
 #### Tiempo Estimado:
-El mantenimiento perfectivo se llevará a cabo en un período de *7 días hábiles*.
+El mantenimiento correctivo se llevará a cabo en un período de **3 días hábiles**.
 
 #### Responsables:
-- *Laura Fernández*, Diseñadora UI/UX.
-- *Juan Martínez*, Desarrollador Backend.
-- *Equipo de QA*, encargados de realizar las pruebas.
+- Ana García, Diseñadora UX/UI.
+- Carlos Rodríguez, Desarrollador Frontend.
+- Equipo de QA, encargados de probar la adaptación en dispositivos.
 
 ---
 
 ## Conclusión
-El mantenimiento de la *Agenda Personal de Citas* se llevará a cabo en tres fases: correctiva, adaptativa y perfectiva. Cada fase tiene un objetivo claro, un plan de acción detallado y un tiempo estimado para su implementación. La combinación de estos tipos de mantenimiento asegura que el sistema siga funcionando correctamente y que continúe mejorando con el tiempo.
+El mantenimiento de la Agenda Personal de Citas se llevará a cabo en tres fases: correctiva, adaptativa y perfectiva. Cada fase está diseñada para abordar problemas específicos, mejorar funcionalidades existentes y adaptar el sistema a nuevas necesidades o tecnologías. Con un plan de acción claro y tiempos estimados para su ejecución, este enfoque integral garantizará que el sistema siga operando sin fallos y siga evolucionando de manera eficiente. La implementación de estos tipos de mantenimiento asegura no solo la resolución de problemas actuales, sino también la mejora continua de la plataforma para ofrecer una experiencia más fluida y actualizada a los usuarios.
 
 ## Tiempo Total Estimado:
-*13 días hábiles* para completar todas las fases de mantenimiento.
+
+*7 días hábiles* para completar todas las fases de mantenimiento.
