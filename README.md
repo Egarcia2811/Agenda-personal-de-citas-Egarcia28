@@ -36,38 +36,38 @@ Los objetivos del sistema se enfocan en garantizar que la aplicación cumpla su 
 
 * **CP1**
 
- *Tipo: Unitario
- *Requerimiento: RF1
- *Datos: Usuario ingresa la fecha y la hora de la cita
- *Resutado esperado: La cita queda registrada y se programa un aviso previo
- *Resultado obtenido: Exito
+ * Tipo: Unitario
+ * Requerimiento: RF1
+ * Datos: Usuario ingresa la fecha y la hora de la cita
+ * Resutado esperado: La cita queda registrada y se programa un aviso previo
+ * Resultado obtenido: Exito
 
 
 * **CP3**
 
- *Tipo: Unitario
- *Requerimiento: RF2
- *Datos: Usuario ingresa datos de la cita programada
- *Resutado esperado: Aparece cita con todos los horarios 
- *Resultado obtenido: Exito
+ * Tipo: Unitario
+ * Requerimiento: RF2
+ * Datos: Usuario ingresa datos de la cita programada
+ * Resutado esperado: Aparece cita con todos los horarios 
+ * Resultado obtenido: Exito
 
 
 * **CP4**
 
- *Tipo: Validacion
- *Requerimiento: RNF2
- *Datos: Acciones realizadas por el usuario
- *Resutado esperado: Rapidez al tener distintas acciones o procesos
- *Resultado obtenido: Exito
+ * Tipo: Validacion
+ * Requerimiento: RNF2
+ * Datos: Acciones realizadas por el usuario
+ * Resutado esperado: Rapidez al tener distintas acciones o procesos
+ * Resultado obtenido: Exito
 
 
 * **CP5**
 
- *Tipo: Validacion
- *Requerimiento: RF3
- *Datos: Ingresa hora para la notificacion del recordatorio
- *Resutado esperado: Deber llegar la notificacion a la hora acordada
- *Resultado obtenido: Exito
+ * Tipo: Validacion
+ * Requerimiento: RF3
+ * Datos: Ingresa hora para la notificacion del recordatorio
+ * Resutado esperado: Deber llegar la notificacion a la hora acordada
+ * Resultado obtenido: Exito
 
 
 ## Tipos de propuesta de mantenimiento 
